@@ -20,6 +20,6 @@ def generate_key():
 def main():
 	key = generate_key()
 
-	f = open("Key", "a")
+	f = open("Key.txt", "w")
 	f.write(key)
 	f.close()
